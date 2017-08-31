@@ -29,5 +29,7 @@ namespace SmarTT.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<SmarTT.Models.School> Schools { get; set; }
     }
 }
