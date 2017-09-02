@@ -31,5 +31,7 @@ namespace SmarTT.Models
         }
 
         public System.Data.Entity.DbSet<SmarTT.Models.School> Schools { get; set; }
+
+        public System.Data.Entity.DbSet<SmarTT.Models.Departement> Departements { get; set; }
     }
 }
